@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/chat-website-application/static/css/main.bf643cf5.chunk.css",
+    "main.js": "/chat-website-application/static/js/main.e4ead89f.chunk.js",
+    "main.js.map": "/chat-website-application/static/js/main.e4ead89f.chunk.js.map",
+    "runtime~main.js": "/chat-website-application/static/js/runtime~main.201e0b3c.js",
+    "runtime~main.js.map": "/chat-website-application/static/js/runtime~main.201e0b3c.js.map",
+    "static/css/2.a486e1fe.chunk.css": "/chat-website-application/static/css/2.a486e1fe.chunk.css",
+    "static/js/2.a0275403.chunk.js": "/chat-website-application/static/js/2.a0275403.chunk.js",
+    "static/js/2.a0275403.chunk.js.map": "/chat-website-application/static/js/2.a0275403.chunk.js.map",
+    "index.html": "/chat-website-application/index.html",
+    "precache-manifest.fbf4f2b44fde2274a40d812b867182af.js": "/chat-website-application/precache-manifest.fbf4f2b44fde2274a40d812b867182af.js",
+    "service-worker.js": "/chat-website-application/service-worker.js",
+    "static/css/2.a486e1fe.chunk.css.map": "/chat-website-application/static/css/2.a486e1fe.chunk.css.map",
+    "static/css/main.bf643cf5.chunk.css.map": "/chat-website-application/static/css/main.bf643cf5.chunk.css.map",
+    "static/media/fb.svg": "/chat-website-application/static/media/fb.d41d8cd9.svg",
+    "static/media/goo.svg": "/chat-website-application/static/media/goo.d41d8cd9.svg",
+    "static/media/ins.svg": "/chat-website-application/static/media/ins.d41d8cd9.svg",
+    "static/media/key.svg": "/chat-website-application/static/media/key.d41d8cd9.svg",
+    "static/media/link.svg": "/chat-website-application/static/media/link.d41d8cd9.svg",
+    "static/media/mail.svg": "/chat-website-application/static/media/mail.d41d8cd9.svg",
+    "static/media/profile.svg": "/chat-website-application/static/media/profile.d41d8cd9.svg"
+  }
+}
