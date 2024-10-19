@@ -2,14 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
+    <link
+      href="https://fonts.googleapis.com/css?family=Abril+Fatface|Acme|Alfa+Slab+One|Barriecito|Bree+Serif|Concert+One|Josefin+Sans|Righteous&display=swap"
+      rel="stylesheet"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Abril+Fatface|Luckiest+Guy|Zhi+Mang+Xing&display=swap"
+      rel="stylesheet"
+    />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -25,6 +28,22 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    <script src="https://js.pusher.com/4.4/pusher.min.js"></script>
+    <!-- <script>
+
+        // Enable pusher logging - don't include this in production
+        Pusher.logToConsole = true;
+
+         var pusher = new Pusher('7c4198eef984dd85a08e', {
+          cluster: 'ap2',
+          forceTLS: true
+        });
+
+        var channel = pusher.subscribe('my-channel');
+        channel.bind('my-event', function(data) {
+          alert(JSON.stringify(data));
+        });
+      </script> -->
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

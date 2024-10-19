@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+<div align="center">
+  <h1> Chatter </h1>
+	<img src="https://img.shields.io/badge/Platform-React.js-green" alt="Platform" />
+	<a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-red.svg"
+      alt="License: MIT" />
+  </a>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+</br>
 
-## Available Scripts
+Chatter is a simple web app made for chatting with your friends. It provide realtime message exchange like any other chat app and has UI like that of WhatsApp Web. It is build on React js platform and has an awesome UI which makes it really attractive. Further it is hosted on heroku so you can view it using the below provided link. The server is a node js server and is also hosted on github as well. View it [here](https://github.com/Hemant27031999/Chatter-back-end).
+</br>
+I have also developed the corresponding react native app for android and IOS mobile platform which you can view [here](https://github.com/Hemant27031999/Chatter-Native).
+</br>
+Right now, I have covered only the major functionalities, but there are many things that can be developed in the app like signing in using google/facebook, media sharing, profiles page display etc. I have put a tooltip of 'In Beta Mode' for the functionalities which I will develop in future.
 
-In the project directory, you can run:
+</br>
 
-### `npm start`
+## Live Application URL
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+https://chatter-fro.herokuapp.com/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+</br>
 
-### `npm test`
+## Screens
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Here are all the screens inside this app.
 
-### `npm run build`
+|                                           Register                                            |                                           SignIn                                            |
+| :-------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------: |
+| ![](https://github.com/Hemant27031999/Chatter-front-end/blob/master/src/gallery/register.png) | ![](https://github.com/Hemant27031999/Chatter-front-end/blob/master/src/gallery/signin.png) |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+|                                           Welcome                                            |                                           ChatScreen                                            |
+| :------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------: |
+| ![](https://github.com/Hemant27031999/Chatter-front-end/blob/master/src/gallery/welcome.png) | ![](https://github.com/Hemant27031999/Chatter-front-end/blob/master/src/gallery/chatscreen.png) |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+|                                          Friend Requests                                           |                                              All Users                                              |
+| :------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------: |
+| ![](https://github.com/Hemant27031999/Chatter-front-end/blob/master/src/gallery/requestscreen.png) | ![](https://github.com/Hemant27031999/Chatter-front-end/blob/master/src/gallery/allusersscreen.png) |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+</br>
 
-### `npm run eject`
+## For Users
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Here you first have to register yourself. Than you can send friend requests to the users of this app or to your friends. Once they accespt your friend request, you will become friends and then you can enjoy real time messaging with them.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+</br>
+</br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## For Developers who wants to contribute
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Developers are welcome to contribute to this open source. To set up this project on your local machine, first clone it. Then go to the directory and run npm install to install all the modules listed in package.json file. After completion, run npm start to run the app on local server.
 
-## Learn More
+</br>
+</br>
+</br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Bugs or Issues
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you find any bug or issue, feel free to report it. Your suggestions and PRs are also welcomed.

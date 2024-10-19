@@ -1,27 +1,32 @@
 {
-  "name": "chat-website-application",
+  "homepage": "http://Hemant27031999.github.io/Chatter-front-end",
+  "name": "chatter",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "@svgr/webpack": "^8.1.0",
+    "glamor": "^2.20.40",
+    "pusher-js": "^4.4.0",
+    "pushid": "^1.0.0",
+    "radium": "^0.25.2",
+    "react": "^16.8.6",
+    "react-animations": "^1.0.0",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1",
+    "react-scroll-to-bottom": "^1.3.2",
+    "tachyons": "^4.12.0",
+    "tachyons-animate": "^7.0.1-1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": "react-app"
   },
   "browserslist": {
     "production": [
@@ -34,5 +39,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }

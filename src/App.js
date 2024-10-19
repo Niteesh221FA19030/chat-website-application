@@ -1,25 +1,59 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import Contacts from "./Components/Contacts/Contacts";
+import Register from "./Components/Register/Register";
+import Signin from "./Components/Signin/Signin";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const initialState = {
+  route: "signin",
+  user: {
+    name: "",
+    email: "",
+    imageurl: "",
+  },
+  friendslist: [],
+};
+
+class App extends Component {
+  constructor() {
+    super();
+    this.state = initialState;
+  }
+
+  loadUser = (data, friends) => {
+    this.setState({
+      user: {
+        name: data.name,
+        email: data.email,
+        imageurl: data.imageurl,
+      },
+      friendslist: friends,
+    });
+  };
+
+  onRouteChange = (route) => {
+    if (route === "signout") {
+      this.setState(initialState);
+    }
+    this.setState({ route: route });
+  };
+
+  render() {
+    return (
+      <div className="App">
+        {this.state.route === "signin" ? (
+          <Signin loadUser={this.loadUser} onRouteChange={this.onRouteChange} />
+        ) : this.state.route === "register" ? (
+          <Register
+            loadUser={this.loadUser}
+            onRouteChange={this.onRouteChange}
+          />
+        ) : (
+          <Contacts data={this.state} onRouteChange={this.onRouteChange} />
+        )}
+      </div>
+    );
+  }
 }
 
 export default App;
